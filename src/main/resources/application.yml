@@ -1,0 +1,4 @@
+#环境切换
+spring:
+  profiles:
+    active: dev

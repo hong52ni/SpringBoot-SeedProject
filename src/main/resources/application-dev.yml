@@ -1,0 +1,10 @@
+#开发环境配置
+
+#数据库配置
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password: 123456
+
