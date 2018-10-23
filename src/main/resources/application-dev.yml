@@ -8,3 +8,15 @@ spring:
       username: root
       password: 123456
 
+
+#Mybatis配置
+#mybatis:
+#  type-aliases-package: pers.hong.project.entity
+#  mapper-locations: classpath:mapper/*.xml
+
+#Pagehelper配置
+#pagehelper:
+#  helper-dialect: mysql
+#  reasonable: true
+#  support-methods-arguments: true
+#  page-size-zero: true
