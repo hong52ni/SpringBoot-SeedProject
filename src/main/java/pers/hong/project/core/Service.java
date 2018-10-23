@@ -1,5 +1,6 @@
 package pers.hong.project.core;
 
+import org.apache.ibatis.exceptions.TooManyResultsException;
 import tk.mybatis.mapper.entity.Condition;
 
 import java.util.List;
@@ -19,12 +20,12 @@ public interface Service<T> {
     T findById(Integer id);
 
     /**
-     * 通过字段名称查找
+     * 通过Model中某个成员变量名称（非数据表中column的名称）查找,value需符合unique约束
      *
      * @param fieldName
      * @return T
      */
-    T findBy(String fieldName);
+    T findBy(String fieldName, Object value) throws TooManyResultsException;
 
     /**
      * 条件查询
