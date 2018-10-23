@@ -6,7 +6,7 @@
 ## 环境依赖
 JDK1.8及以上
 
-## 技术栈
+## 技术选用
 * Spring Boot<br>
 * Mybatis<br>
 * tk.Mybatis<br>
