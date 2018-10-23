@@ -66,7 +66,7 @@ public class MybatisConfig {
 
         //配置通用Mapper
         Properties properties = new Properties();
-        properties.setProperty("mappers", MAPPER_INTERFACE_REFERENCE);
+        properties.setProperty("mapper", MAPPER_INTERFACE_REFERENCE);
         properties.setProperty("notEmpty", "false");
         properties.setProperty("IDENTITY", "MYSQL");
         mapperScannerConfigurer.setProperties(properties);
