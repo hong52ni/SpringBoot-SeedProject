@@ -16,7 +16,7 @@ JDK1.8及以上
 * FreeMarker<br>
 
 ## 使用方法
-* git clone `https://github.com/hong52ni/SpringBoot-SeedProject`
+* git clone https://github.com/hong52ni/SpringBoot-SeedProject.git
 * 修改application-dev.yml中的数据库配置环境
 * 继承通用接口直接使用，或根据业务在基础代码上扩展
 * 代码生成：在CodeGenerator的main方法中修改需要生成的表名，运行即可
