@@ -1,7 +1,7 @@
 # SpringBoot-SeedProject
 
 ## 项目简介
-使用SpringBoot构建的种子项目，配置了通用Mapper、Service接口，以及使用FreeMarker模板引擎实现了代码生成器，可用于中小项目的快速开发
+使用SpringBoot2.0版本构建的种子项目，配置了通用Mapper、Service接口，以及使用FreeMarker模板引擎实现了代码生成器，可用于中小项目的快速开发
 
 ## 环境依赖
 JDK1.8及以上
