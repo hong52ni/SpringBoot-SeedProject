@@ -29,7 +29,7 @@ public class CodeGenerator {
 
     //路径配置
     private static final String PROJECT_PATH = System.getProperty("user.dir");
-    private static final String TEMPLATE_FILE_PATH = PROJECT_PATH + "/src/test/resources/generator/template";
+    private static final String TEMPLATE_FILE_PATH = PROJECT_PATH + "/src/main/resources/template";
     private static final String JAVA_PATH = "/src/main/java";
     private static final String RESOURCES_PATH = "/src/main/resources";
     private static final String PACKAGE_PATH_SERVICE = packageConvertPath(SERVICE_PACKAGE);
@@ -86,7 +86,7 @@ public class CodeGenerator {
 
         PluginConfiguration pluginConfiguration = new PluginConfiguration();
         pluginConfiguration.setConfigurationType("tk.mybatis.mapper.generator.MapperPlugin");
-        pluginConfiguration.addProperty("mapper", MAPPER_INTERFACE_REFERENCE);
+        pluginConfiguration.addProperty("mappers", MAPPER_INTERFACE_REFERENCE);
         context.addPluginConfiguration(pluginConfiguration);
 
         JavaModelGeneratorConfiguration javaModelGeneratorConfiguration = new JavaModelGeneratorConfiguration();
