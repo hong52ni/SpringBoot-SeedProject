@@ -66,5 +66,5 @@ JDK1.8及以上
 │                       └── SpringbootSeedprojectApplicationTests.java
 |
 ```
-## 如果项目有用的到的地方，希望能点个Star或Fork😜
+## 如果项目有用的到的地方，希望能点个Star或Fork
 [个人博客](https://blog.csdn.net/qq_36182135)
